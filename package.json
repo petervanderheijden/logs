@@ -1,0 +1,40 @@
+{
+  "name": "@petervanderheijden/logs",
+  "version": "0.0.2",
+  "description": "An out-of-the-box, lightweight but highly-configurable logger.",
+  "keywords": [
+    "logger",
+    "logging",
+    "logs",
+    "transports",
+    "file",
+    "console"
+  ],
+  "license": "MIT",
+  "author": "Peter van der Heijden",
+  "main": "dist",
+  "types": "types",
+  "files": [
+    "dist",
+    "src",
+    "types"
+  ],
+  "scripts": {
+    "build": "npx -p typescript tsc",
+    "build-and-watch": "npx -p typescript tsc --watch",
+    "lint": "npx eslint --ext .ts src/",
+    "lint-and-fix": "npx eslint --ext .ts src/ --fix",
+    "test": ""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dayjs": "^1.11.7",
+    "xtend": "^4.0.2"
+  }
+}

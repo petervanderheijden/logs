@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "rootDir": "src/",
+        "outDir": "dist/",
+        "target": "ES6",
+        "module": "CommonJS",
+        "lib": ["ES6", "ES2021"],
+        "noImplicitAny": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "strictPropertyInitialization": false,
+        "types": ["node"],
+    },
+    "include": ["src/**/*"]
+}
